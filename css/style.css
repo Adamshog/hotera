@@ -639,6 +639,14 @@ img{
 	text-decoration: underline;
 }
 
+.txt{
+	color: #000000;
+}
+
+.txt:hover{
+	color: white;
+}
+
 .header-style-one .nav-outer{
 	position: relative;
 	float: left;
