@@ -1426,13 +1426,26 @@ body.search-visible{
 	padding: 10px 10px;
 	font-size: 16px;
 	font-weight: 500;
-	color: #ffffff;
+	color: #0a0a0a;
 	text-transform: capitalize;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;	
+}
+
+.navigation li a:hover{
+	color: white;
+}
+
+.main-menu .navigation > li > a:hover{
+	color: white;
+}
+
+.main-menu .navigation > li > ul > li > a:hover{
+	background-color: deepskyblue;
+	color: white;
 }
 
 .mobile-menu .navigation li ul li > a{
@@ -1484,7 +1497,7 @@ body.search-visible{
 }
 
 .navigation-clearfix li a.hover{
-	color: #000000;
+	color: #080808;
 
 }
 
