@@ -1428,12 +1428,12 @@ body.search-visible{
 
 .mobile-menu .navigation li > a{
 	position: relative;
-	display: inline-block;
+	display: block;
 	line-height: 24px;
 	padding: 10px 10px;
 	font-size: 16px;
 	font-weight: 500;
-	color: #0a0a0a;
+	color: #f7f4f4;
 	text-transform: capitalize;
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
