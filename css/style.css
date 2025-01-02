@@ -688,8 +688,8 @@ img{
 }
 
 .main-menu .navigation > li > a{
-	position:absolute;
-	display:block;
+	position:relative;
+	display:flex;
 	text-align:center;
 	font-size:16px;
 	line-height:30px;
