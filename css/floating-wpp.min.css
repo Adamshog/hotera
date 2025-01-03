@@ -9,13 +9,15 @@
     border-radius:50%;
     box-shadow:1px 1px 4px rgba(60,60,60,.4);
     transition:box-shadow .2s;
-    cursor:pointer;overflow:hidden}
+    cursor:pointer;
+    overflow:hidden}
 .floating-wpp .floating-wpp-button img,.floating-wpp .floating-wpp-button svg{
     position:absolute;
     width:100%;
     height:auto;
     object-fit:cover;
-    top:50%;left:50%;
+    top:50%;
+    left:50%;
     transform:translate3d(-50%,-50%,0);
     border-radius:50%}
 .floating-wpp:hover{
