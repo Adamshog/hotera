@@ -1003,17 +1003,19 @@
 <div id="myDiv"></div>
 
 </body>
-<script type="text/Javascript">
+<script type="text/javascript">
     $(function () {
-        $('#myDiv').floatingWhatsApp({
-            phone: '078837788',
-            showPopup: 'true',
-            popupMessage: 'hello, how can we help you?',
-            headerTitale: "whatsapp chat",
-            message: "great work",
-            position: "right",
+        $('#myButton').floatingWhatsApp({
+            phone: '5491133359850',
+            popupMessage: 'Hello, how can we help you?',
+            message: "I'd like to order a pizza",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Welcome!',
+            headerColor: 'crimson',
+            backgroundColor: 'crimson',
+            buttonImage: '<imgages src="whatsapp.svg" />'
         });
-        
     });
 </script>
 </html>
