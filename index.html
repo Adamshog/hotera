@@ -76,7 +76,6 @@
             </div>
         </div>
         <!--End Header Upper-->
-        <div id="myDiv"></div>
         <!-- Mobile Menu  -->
         <div class="mobile-menu">
             <div class="close-btn"><span class="icon flaticon-targeting-cross"></span></div>
@@ -1001,11 +1000,12 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHJe2MPH8B-gLzZu5QI0Alc73nvkLuuqQ"></script>
 <script src="js/map-script.js"></script>
 
+<div id="myDiv"></div>
 </body>
 
 <script type="text/javascript">
     $(function () {
-        $('#myButton').floatingWhatsApp({
+        $('#myDiv').floatingWhatsApp({
             phone: '5491133359850',
             popupMessage: 'Hello, how can we help you?',
             message: "I'd like to order a pizza",
