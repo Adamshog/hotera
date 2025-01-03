@@ -1000,12 +1000,19 @@
 <!--Google Map-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHJe2MPH8B-gLzZu5QI0Alc73nvkLuuqQ"></script>
 <script src="js/map-script.js"></script>
+
 <div id="myDiv"></div>
+
 </body>
 <script type="text/Javascript">
     $(function () {
-        $('#myDiv').foatingwhatsApp({
-            phone: '078837788'
+        $('#myDiv').foatingWhatsApp({
+            phone: '078837788',
+            showPopup: 'true',
+            popupMessage: 'hello, how can we help you?',
+            headerTitale: "whatsapp chat",
+            message: "great work",
+            position: "right",
         });
         
     });
