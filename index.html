@@ -17,9 +17,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="floating-wpp.min.js"></script>
-<link rel="stylesheet" href="floating-wpp.min.css">
 </head>
 
 <body>
@@ -982,6 +979,13 @@
     </footer>
 
 </div>
+
+<!-- Floating WhatsApp Button -->
+<div id="whatsapp-popup">
+    <a href="https://wa.me/1234567890" target="_blank" title="Chat with us on WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+  </div>
 <!--End pagewrapper--><!--Scroll to top--><div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
 
 <script src="js/jquery.js"></script>
@@ -999,24 +1003,9 @@
 <!--Google Map-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHJe2MPH8B-gLzZu5QI0Alc73nvkLuuqQ"></script>
 <script src="js/map-script.js"></script>
+<!--whatsapp popup-->
+<script src="script.js"></script>
 
-<div id="myDiv"></div>
+
 </body>
-
-<script type="text/javascript">
-    $(function () {
-        $('#myDiv').floatingWhatsApp({
-            phone: '5491133359850',
-            popupMessage: 'Hello, how can we help you?',
-            message: "I'd like to order a pizza",
-            showPopup: true,
-            display: 'overlay',
-            position: 'righat',
-            headerTitle: 'Welcome!',
-            headerColor: 'crimson',
-            backgroundColor: 'crimson',
-            buttonImage: '<imges src="whatsapp.svg"/>'
-        });
-    });
-</script>
 </html>
