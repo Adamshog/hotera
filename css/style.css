@@ -117,8 +117,8 @@
  /* Floating WhatsApp Button */
 #whatsapp-popup {
 	position: fixed;
-	bottom: 100px;
-	right: 20px;
+	bottom: 20px;
+	left: 20px;
 	z-index: 1000;
   }
   
