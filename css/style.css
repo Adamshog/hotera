@@ -169,6 +169,10 @@
 	}
   }
 
+  .navigation .clearfix .a {
+	text-align: left;
+  }
+
 /**
 ====================================================================
 	Global Settings
